@@ -8,7 +8,6 @@ import io
 client = OpenAI()
 
 app = Flask(__name__)
-#openai.api_key = 'your_openai_api_key'
 
 # 저장할 디렉토리 설정 (예: 'uploads/')
 UPLOAD_FOLDER = 'uploads/'
